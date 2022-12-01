@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    background: rgb( 215, 215, 215);
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    width: 350px;
+}
+form input{
+    display: block;
+    background: none;
+    margin: 20px auto;
+    padding: 9px;
+    text-align: center;
+    border: 3px solid purple;
+    outline: none;
+    width: 180px;
+    border-radius: 10px;
+
+}
+form input[type="Submit"]{
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 800;
+    background: purple;
+    color: white;
+}
+
+p{
+    color: red;
+    font-size: 22px;
+    font-weight: 600;
+}
